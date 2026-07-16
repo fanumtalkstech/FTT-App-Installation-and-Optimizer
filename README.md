@@ -61,6 +61,7 @@ FTT Optimization and App Installer replaces the repetitive process of manually i
 |---|---|---|
 | Windows 11 | ✅ Fully supported | Primary test environment |
 | Windows 10 (2004+) | ✅ Fully supported | Requires `winget` installed manually if not present |
+| Linux | ⚠️Testing Stage | Currently Testing with 2.0 Beta 1, Install at your own risk |
 | Windows 10 (pre-2004) | ⚠️ Not supported | `winget` is unavailable on older builds |
 | Windows Server | ⚠️ Untested | May work but is not officially supported |
 | Windows 8 | ⚠️ Not Supported | This will NOT work on Windows 8|
