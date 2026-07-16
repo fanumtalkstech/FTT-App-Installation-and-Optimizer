@@ -4,8 +4,8 @@
 
 *A lightweight desktop utility that installs your apps and optimizes Windows with a single click.*
 
-[![Privacy](https://img.shields.io/badge/Privacy-Policy-blue)](PRIVACY.md)
-[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey)](LICENSE)
+[![Privacy](https://img.shields.io/badge/Privacy-Policy-blue)](privacy.md)
+[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey)](license.md)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-informational)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-5391FE)
 
