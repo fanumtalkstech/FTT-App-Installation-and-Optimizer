@@ -75,11 +75,11 @@ FTT Optimization and App Installer replaces the repetitive process of manually i
 
 ## Privacy
 
-See [PRIVACY.md](PRIVACY.md) — in short, this tool collects nothing and sends nothing anywhere.
+See [PRIVACY.md](privacy.md) — in short, this tool collects nothing and sends nothing anywhere.
 
 ## License
 
-See [LICENSE](LICENSE) — All Rights Reserved. Viewing and personal use is permitted; redistribution, modification, and commercial use require written permission.
+See [LICENSE](license.md) — All Rights Reserved. Viewing and personal use is permitted; redistribution, modification, and commercial use require written permission.
 
 ## Contributing
 
