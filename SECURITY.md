@@ -7,8 +7,8 @@ The following versions of **FTT Optimization and App Installer** are currently r
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 2.0     | :white_check_mark: |
-| 1.1     | :white_check_mark: |
+| 2.0 Beta 1    | :white_check_mark: |
+| 1.1 Beta 1    | :white_check_mark: |
 | 1.0     | :white_check_mark: |
 | < 1.0   | :x:                |
 
