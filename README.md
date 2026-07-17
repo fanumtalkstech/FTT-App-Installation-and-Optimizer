@@ -14,7 +14,8 @@
 ---
 
 ## 📸 See it in Action
-<img width="593" height="647" alt="image" src="https://github.com/user-attachments/assets/b21f6850-f289-4f95-90c5-8e511e4b5042" />
+<img width="583" height="637" alt="image" src="https://github.com/user-attachments/assets/2b857cfc-302c-41b2-b8b7-bb97b7871cf2" />
+
 
 
 ---
