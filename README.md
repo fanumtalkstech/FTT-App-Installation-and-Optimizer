@@ -1,4 +1,8 @@
-# FTT Suite
+<div align="center">
+
+  # FTT Suite
+  *Coming July 20th*
+
 
 *A powerful, all-in-one desktop utility designed to monitor system health, optimize performance, and manage your software ecosystem with a modern, intuitive interface.*
 
@@ -10,8 +14,9 @@
 ---
 
 ## 📸 See it in Action
+<img width="981" height="673" alt="image" src="https://github.com/user-attachments/assets/4de4a33d-5f84-41e0-9c67-a768d122fa08" />
+*Note: This interface is currently under development and may change before the actual release.*
 
-*(Insert your FTT Suite dashboard screenshot here)*
 
 ---
 
