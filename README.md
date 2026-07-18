@@ -1,8 +1,5 @@
 <div align="center">
 
-<!-- Replace with your own logo/banner image, e.g. assets/banner.png -->
-<img src="assets/banner.png" alt="FTT Optimization and App Installer" width="500">
-
 # FTT Optimization and App Installer
 
 *A lightweight desktop utility that installs your apps and optimizes Windows with a single click.*
