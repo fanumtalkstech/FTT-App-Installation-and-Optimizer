@@ -1,87 +1,62 @@
-<div align="center">
+# FTT Suite
 
-# FTT Optimization and App Installer
+*A powerful, all-in-one desktop utility designed to monitor system health, optimize performance, and manage your software ecosystem with a modern, intuitive interface.*
 
-*A lightweight desktop utility that installs your apps and optimizes Windows with a single click.*
-
-[![Privacy](https://img.shields.io/badge/Privacy-Policy-blue)](privacy.md)
-[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey)](license.md)
-![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-informational)
-![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-5391FE)
-
-</div>
+![Privacy Policy](https://img.shields.io/badge/Privacy-Policy-blue)
+![License](https://img.shields.io/badge/License-All_Rights_Reserved-green)
+![Platform](https://img.shields.io/badge/platform-Windows_10_/_11-blue)
+![Language](https://img.shields.io/badge/C%23-.NET_8.0-purple)
 
 ---
 
 ## 📸 See it in Action
-<img width="583" height="637" alt="image" src="https://github.com/user-attachments/assets/2b857cfc-302c-41b2-b8b7-bb97b7871cf2" />
 
-
+*(Insert your FTT Suite dashboard screenshot here)*
 
 ---
 
-## Overview
+## 🚀 Looking for a lighter version?
+If you only need the automated app installer and basic optimization features without the full system monitoring suite, download our dedicated lightweight tool:
+👉 **[FTT App Installation and Optimizer](https://github.com/fanumtalkstech/FTT-App-Installation-and-Optimizer)**
 
-FTT Optimization and App Installer replaces the repetitive process of manually installing apps and debloating Windows after a fresh install. Instead of running the same `winget` commands and registry edits every time, you check the boxes you want and generate a portable script that does it all in one run.
+---
 
-## Features
+## ✨ Features
 
-- **50+ Application Library** — Common apps (browsers, dev tools, utilities, media, communication) installed via `winget`
-- **Windows Optimization Suite** — Disable telemetry, Copilot, Game Bar, search bloat, startup entries, and more
-- **Self-Elevating Script** — Generated `.bat` automatically requests Administrator privileges
-- **Fault-Tolerant Installs** — A failed app install logs a warning and continues rather than halting the script
-- **Auto-Named Output** — Generated scripts are automatically timestamped for easy tracking
-- **No Bundled Dependencies** — Pure PowerShell + WinForms, no Electron, no third-party runtime
+- **System Health Dashboard** — Real-time monitoring of CPU, RAM, and GPU performance via custom-painted gauges.
+- **Deep Diagnostics** — Comprehensive hardware checks for battery health, disk status, memory usage, and thermal performance.
+- **Modern UI** — An iOS-inspired Master-Detail sidebar interface for seamless, intuitive navigation.
+- **Customizable Theme** — Integrated accent color engine to tailor the look and feel of your workspace.
+- **Smart Update Engine** — Automatic version tracking with independent update checks for both the FTT Suite and the FTT Optimizer.
+- **Native Performance** — Built with .NET 8.0 for a fast, responsive, and lightweight experience with no heavy web-based runtimes.
 
-## Requirements
+---
+
+## 📋 Requirements
 
 | Requirement | Details |
 |---|---|
 | OS | Windows 10 (2004+) or Windows 11 |
-| PowerShell | 5.1 or later (built into Windows) |
-| winget | Included on modern Windows, or install "App Installer" from the Microsoft Store |
-| Privileges | Administrator (the generated script elevates itself automatically) |
-| Internet | Required for `winget` to download selected applications |
+| Framework | .NET 8.0 Desktop Runtime |
+| Privileges | Administrator (required for hardware diagnostics and deep system tweaks) |
+| Internet | Required for update checks and fetching hardware/package metadata |
 
-## Usage
+---
 
-1. Download `FTT-Installer.ps1` from this repository.
-2. Right-click the file and select **Run with PowerShell** (or run it from an elevated PowerShell prompt).
-3. Check the applications and optimizations you want.
-4. Click **Generate Install Script**.
-5. Save the generated `.bat` file, then run it as Administrator.
+## 🛠 Tech Stack
 
-> **Tip:** If PowerShell blocks the script due to execution policy, run:
-> ```powershell
-> powershell -ExecutionPolicy Bypass -File .\FTT-Installer.ps1
-> ```
+- **Language:** C# (.NET 8.0)
+- **UI Framework:** WinForms with custom `System.Drawing` rendering
+- **System Access:** `System.Management` (WMI) and `System.Diagnostics` (Performance Counters)
 
-## Version Support
+---
 
-| Version | Status | Notes |
-|---|---|---|
-| Windows 11 | ✅ Fully supported | Primary test environment |
-| Windows 10 (2004+) | ✅ Fully supported | Requires `winget` installed manually if not present |
-| Linux | ⚠️Testing Stage | Currently Testing with 2.0 Beta 1, Install at your own risk |
-| Windows 10 (pre-2004) | ⚠️ Not supported | `winget` is unavailable on older builds |
-| Windows Server | ⚠️ Untested | May work but is not officially supported |
-| Windows 8 | ⚠️ Not Supported | This will NOT work on Windows 8|
-| Windows 7 | ⚠️ Not Supported | This will NOT work on Windows 7|
+## ⚖ Important Notes / Disclaimer
 
-## Important Notes / Disclaimer
+- **System Safety:** This tool performs low-level hardware diagnostics and system configuration. While designed to be safe, modifications to Windows settings can have unintended consequences. **Creating a System Restore Point before applying major optimizations is strongly recommended.**
+- **Use at your own risk:** The author is not responsible for any data loss, system instability, or other damage resulting from the use of this tool.
+- **Repository Support:** This tool tracks releases from [FTT-Suite](https://github.com/fanumtalkstech/FTT-Suite) and [FTT-App-Installation-and-Optimizer](https://github.com/fanumtalkstech/FTT-App-Installation-and-Optimizer). Please check the issues tab if you encounter any connectivity or update-check failures.
 
-- Some optimization tweaks (e.g., **Disable Startup Bloat**) make changes that are not trivially reversible. **Creating a System Restore Point before running any tweaks is strongly recommended.**
-- This tool modifies the Windows Registry and system configuration. Use at your own risk. The author is not responsible for any data loss, system instability, or other damage resulting from use of this tool.
-- Application IDs are sourced from the public [winget-pkgs](https://github.com/microsoft/winget-pkgs) repository and may change or be delisted over time. If an install fails, check whether the package ID is still valid.
+---
 
-## Privacy
-
-See [PRIVACY.md](privacy.md) — in short, this tool collects nothing and sends nothing anywhere.
-
-## License
-
-See [LICENSE](license.md) — All Rights Reserved. Viewing and personal use is permitted; redistribution, modification, and commercial use require written permission.
-
-## Contributing
-
-This project is not currently open to external contributions or pull requests. Bug reports and suggestions are welcome via the Issues tab.
+*Built with passion by [fanumtalkstech](https://github.com/fanumtalkstech).*
